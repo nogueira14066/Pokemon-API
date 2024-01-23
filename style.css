@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.container{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5) url(img/pokemon.png);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#name{
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;cursor: default;
+
+}
+
+input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    outline: none;
+    color: black;
+    width: 350px;
+}
+#btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(89, 169, 181);
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 55%;
+    transition: opacity 0.2s ease-in-out;
+}
+
+img:hover{
+    opacity: 0.6;
+}
+
+
+p{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.caracteristicas{
+    /*border: 2px solid red;*/
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 170px;
+}
+
+.caracteristicas p{
+    padding: 10px;
+    margin-bottom: 9px;
+    color: white;
+    cursor: default;
+}
+
+label{
+    display: none;
+}
